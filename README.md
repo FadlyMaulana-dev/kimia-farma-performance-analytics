@@ -42,22 +42,8 @@ Analisis dalam project ini meliputi:
 7. Analisis rating cabang
 8. Analisis rating transaksi
 9. Analisis tren penjualan
-
-## Struktur Repository
-
-```text
-kimia-farma-performance-analytics/
-│
-├── README.md
-│
-├── sql/
-│   ├── 01_validasi_data.sql
-│   ├── 02_join_data.sql
-│   ├── 03_analisis_penjualan.sql
-│   ├── 04_analisis_profit.sql
-│   └── 05_analisis_rating.sql
-
-Hasil Utama
+   
+ Hasil Utama
 
 Beberapa temuan dari hasil analisis:
 
@@ -72,7 +58,19 @@ Hasil analisis divisualisasikan menggunakan Looker Studio dalam bentuk
 dashboard interaktif yang mencakup indikator penjualan, profitabilitas,
 rating, serta tren kinerja bisnis.
 
+## Struktur Repository
 
+```text
+kimia-farma-performance-analytics/
+│
+├── README.md
+│
+├── sql/
+│   ├── 01_validasi_data.sql
+│   ├── 02_join_data.sql
+│   ├── 03_analisis_penjualan.sql
+│   ├── 04_analisis_profit.sql
+│   └── 05_analisis_rating.sql
 │
 └── hasil-analisis/
     └── README.md
