@@ -429,55 +429,69 @@ Berdasarkan hasil pengolahan dan analisis data, diperoleh beberapa temuan utama:
 Struktur dokumentasi hasil analisis dalam repository adalah sebagai berikut:
 
 ```text
+Struktur Repository
 kimia-farma-performance-analytics/
+│
+├── hasil-analisis/
+│   │
+│   ├── 01-validasi-data/
+│   │   ├── 01_struktur_tabel_bigquery.png.png
+│   │   ├── 02_join_final_data.png
+│   │   ├── 02_join_final_data_query1.png
+│   │   ├── 03_validasi_jumlah_join.png
+│   │   ├── 04_cek_jumlah_tabel_analisis.png
+│   │   └── 05_cek_null_join.png
+│   │
+│   ├── 02-challenge-1/
+│   │   ├── 01_cek_periode_transaksi.png
+│   │   ├── 02_perhitungan_nett_sales.png
+│   │   ├── 03_kinerja_tahunan.png
+│   │   ├── 04_pertumbuhan_nett_sales.png
+│   │   ├── 05_top_10_cabang.png
+│   │   ├── 06_top_10_produk.png
+│   │   └── 06_top_10_produk_query.png
+│   │
+│   ├── 03-challenge-2/
+│   │   ├── 01_validasi_perhitungan_laba.png
+│   │   ├── 02_validasi_persentase_gross_laba.png
+│   │   ├── 03_revenue_tahunan_2020_2023.png
+│   │   ├── 04_top_10_transaksi_provinsi.png
+│   │   ├── 05_top_10_nett_sales_provinsi.png
+│   │   ├── 06_top_5_rating_cabang_vs_transaksi.png
+│   │   ├── 07_profit_per_provinsi.png
+│   │   └── 08_tren_nett_sales_bulanan.png
+│   │
+│   └── 04-dashboard/
+│       └── dashboard-looker-studio.png
 │
 ├── README.md
 │
-├── sql/
-│   └── README.md
-│
-└── hasil-analisis/
-    │
-    ├── README.md
-    │
-    ├── 01-validasi-data/
-    │   ├── 01_struktur_tabel_bigquery.png
-    │   ├── 02_join_final_data.png
-    │   ├── 03_validasi_jumlah_join.png
-    │   ├── 04_cek_jumlah_data_analisis.png
-    │   └── 05_cek_null.png
-    │
-    ├── 02-challenge-1/
-    │   ├── 01_periode_transaksi.png
-    │   ├── 02_perhitungan_nett_sales.png
-    │   ├── 03_kinerja_tahunan.png
-    │   ├── 04_pertumbuhan_nett_sales.png
-    │   ├── 05_top_10_cabang.png
-    │   └── 06_top_10_produk.png
-    │
-    ├── 03-challenge-2/
-    │   ├── 01_validasi_perhitungan_laba.png
-    │   ├── 02_validasi_persentase_gross_laba.png
-    │   ├── 03_revenue_tahun_2020-2023.png
-    │   ├── 04_top_10_transaksi_provinsi.png
-    │   ├── 05_top_10_nett_sales_provinsi.png
-    │   ├── 06_top_5_rating_cabang_vs_transaksi.png
-    │   ├── 07_profit_per_provinsi.png
-    │   └── 08_tren_nett_sales_bulanan.png
-    │
-    └── 04-dashboard/
-        └── ...
+└── sql/
+    └── README.md
 ```
 
-Folder `01-validasi-data/` digunakan untuk menyimpan bukti proses validasi dan integrasi data.
+Keterangan Folder
 
-Folder `02-challenge-1/` digunakan untuk menyimpan dokumentasi hasil analisis tren dan kinerja penjualan.
+hasil-analisis/
+Berisi dokumentasi hasil proses validasi data, analisis Challenge 1 dan Challenge 2, serta hasil akhir dashboard.
 
-Folder `03-challenge-2/` digunakan untuk menyimpan dokumentasi hasil analisis profitabilitas dan analisis lanjutan.
+01-validasi-data/
+Berisi bukti proses validasi struktur tabel, proses join, pengecekan jumlah data, dan pengecekan nilai NULL.
 
-Folder `04-dashboard/` digunakan untuk menyimpan dokumentasi visualisasi dashboard Looker Studio.
+02-challenge-1/
+Berisi hasil analisis periode transaksi, nett sales, kinerja tahunan, pertumbuhan penjualan, top cabang, dan top produk.
 
-Folder `sql/` digunakan untuk menyimpan query SQL yang digunakan selama proses pengolahan dan analisis data.
+03-challenge-2/
+Berisi hasil analisis laba, gross profit, revenue, performa provinsi, rating cabang, profit per provinsi, dan tren nett sales bulanan.
+
+04-dashboard/
+Berisi hasil akhir visualisasi analisis dalam bentuk dashboard Looker Studio.
+
+sql/
+Berisi dokumentasi query SQL yang digunakan dalam proses pengolahan dan analisis data.
+
+README.md
+Berisi penjelasan utama mengenai project, tujuan, tools, proses analisis, hasil, dan struktur repository.
 
 ---
 
