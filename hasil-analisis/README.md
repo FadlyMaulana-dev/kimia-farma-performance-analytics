@@ -435,7 +435,7 @@ kimia-farma-performance-analytics/
 ├── hasil-analisis/
 │   │
 │   ├── 01-validasi-data/
-│   │   ├── 01_struktur_tabel_bigquery.png.png
+│   │   ├── 01_struktur_tabel_bigquery.png
 │   │   ├── 02_join_final_data.png
 │   │   ├── 02_join_final_data_query1.png
 │   │   ├── 03_validasi_jumlah_join.png
